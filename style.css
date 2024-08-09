@@ -42,4 +42,30 @@ padding-left: 10px;
 }
 .cart img:hover{
 cursor: pointer;
+}
+/* small screen media Query */
+@media (max-width: 100px){
+nav{
+    height: 80px;
+}
+#Logo{
+    width: 100px;
+    height: 100px;
+    }
+input{
+    width: 250px;
+    height: 30px;
+    }
+i{
+    margin-left: -20px;
+    padding: 7px;
+    }
+.cart{
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    }
+cart img{
+    padding-left: 7px;
+    }
 }    
