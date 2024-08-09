@@ -9,7 +9,7 @@ background-color: #a9c7e0
 nav{
 width: 100%;
 height: 100px;
-background-color: rgba(71,71,186,8.884);
+background-color: rgb(253, 140, 140);
 display: flex;
 justify-content: space-evenly;
 align-items: center;
@@ -27,7 +27,7 @@ height: 40px;
 }
 i{
 background-color: rgb(222,284,70);
-color: #fff;
+color: #711010;
 padding: 9px;
 margin-left: -30px;
 }
@@ -72,6 +72,7 @@ cart img{
 /* mobile */
 @media (max-width: 400px){
 nav{
+    width: 100%;
     height: 60px;
 }
 #Logo{
@@ -85,8 +86,8 @@ input{
 i{
     background-color: transparent;
     color: #000;
-    padding-top: 2px;
-    margin-left: auto-28px;
+    padding-top: 02px;
+    margin-left: -28px;
 }
 .cart{
     padding: 8 15px;
@@ -94,7 +95,24 @@ i{
     height: 15px;
 }
 .cart img{
-    padding-left: 5px;
+    padding-left: 05px;
+}
+ /* Home */
+.home{
+    margin: 20px 0;
+}
+.categories{
+    padding: 5px;
+    height: 70px;
+}
+.categories h2{
+    font-size: 7px;
+    padding: 2px;
+    margin-top: 2px;
+}
+.categories li{
+    padding: 2px 0;
+    font-size: 1vh;
 }
 }
 /* Home */
@@ -123,4 +141,23 @@ i{
 .categories li a{
     text-decoration: none;
     color: 1#000;
-} 
+}
+.back-img{
+    background-image: url(./images/technology-3389917_640.webp);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    /* background-repeat: no-repeat; */
+}
+.back-img{
+    z-index: 2;
+}
+.back-img img{
+    width: 350px;
+    height: 300px;
+    margin-right: 50px;
+}
+ 
