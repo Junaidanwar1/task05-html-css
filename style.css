@@ -3,7 +3,7 @@ padding: 0;
 margin: 0;
 }
 body{
-background-color: #a9c7e0
+background-color: #5bb5ff
 }
 /* Nav */
 nav{
@@ -160,4 +160,38 @@ i{
     height: 300px;
     margin-right: 50px;
 }
- 
+#mob-heading{
+margin-top: 60px;
+margin-bottom: 10px;
+padding: 10px 20px;
+}
+.Mobiles{
+display: grid;
+grid-template-columns: 14% 14% 14% 14% 14% 14%;
+justify-content: space-around;
+}
+.Mobiles div{
+display: grid;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+background-color: efafafa;
+border: 1px solid gainsboro;
+text-align: center;
+margin: 10px 0;
+}
+.Mobiles div img{
+height: 150px;
+width: 150px;
+border-radius: 5px;
+margin: 10px;
+background-color: transparent;
+}
+.Mobiles span p{
+padding: 3px;
+font-size: small;
+}
+.Mobiles span p:first-child{
+font-weight: bold;
+}
+
