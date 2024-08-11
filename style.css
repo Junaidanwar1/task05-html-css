@@ -3,19 +3,19 @@ padding: 0;
 margin: 0;
 }
 body{
-background-color: #5bb5ff
+background-color:white;
 }
 /* Nav */
 nav{
 width: 100%;
 height: 100px;
-background-color: rgb(253, 140, 140);
+background-color: rgb(255, 95, 95);
 display: flex;
 justify-content: space-evenly;
 align-items: center;
 }
 #logo{
-width: 100px;
+width: 105px;
 height: 100px;
 }
 .input{
@@ -194,4 +194,79 @@ font-size: small;
 .Mobiles span p:first-child{
 font-weight: bold;
 }
+/* laptop */
+#laptop-heading{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.laptops{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    justify-content: space-around;
+}
+.laptops div{
+    background-color: aqua;
+    border: 2px solid blue;
+    text-align: center;
+}
+.laptops div img{
+    height: 160px;
+    width: 180px;
+    border-radius: 5px;
+    margin: 15px;
+    margin-bottom: 5px;
+    background-color: transparent;
+}
+.notify{
+    background-color: #000;
+    color: #711010;
+    width: 90px;
+    height: 40px;
+    padding: 0;
+    margin-top: 10px;
+    box-shadow: rgb(253, 140, 140);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.notify p{
+    padding-top: 10px;
+    font-size: small;
+}
+.laptops h4{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+/* smart watches */
+#watches-heading{
+    margin-top: 80px;
+    margin-left: 10px;
+    padding: 10px 20px;
+}
+.smart-watches{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+}
+.smart-watches div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(201, 216, 40);
+    width: 400px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    box-shadow: rgba(15, 15, 249, 0.804);
+}
+.smart-watches div img{
+    width: 200px;
+    height: 190px;
+}
+.smart-watches p{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(1, 1, 0);
+}
+
 
