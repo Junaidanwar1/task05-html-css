@@ -257,7 +257,7 @@ font-weight: bold;
     height: 200px;
     margin-bottom: 20px;
     padding: 10px 50px;
-    box-shadow: rgba(15, 15, 249, 0.804);
+    box-shadow: rgba(0, 0, 0, 0.804);
 }
 .smart-watches div img{
     width: 200px;
